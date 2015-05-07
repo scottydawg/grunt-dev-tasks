@@ -1,6 +1,6 @@
 {
   "name": "grunt-dev-tasks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grunt tasks for simplifying development workflows",
   "author": "Scott Delamater",
   "private": false,
