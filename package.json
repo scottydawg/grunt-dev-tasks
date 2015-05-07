@@ -1,6 +1,7 @@
 {
   "name": "grunt-dev-tasks",
   "version": "0.0.1",
+  "description": "Grunt tasks for simplifying development workflows",
   "author": "Scott Delamater",
   "private": false,
   "repository": {
@@ -17,7 +18,12 @@
     }
   ],
   "main": "tasks/grunt-dev-tasks.js",
-  "keywords": ["grunt", "task", "developer", "tool"],
+  "keywords": [
+    "grunt",
+    "task",
+    "developer",
+    "tool"
+  ],
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -26,5 +32,8 @@
     "grunt-contrib-watch": "~0.6.1",
     "grunt-jasmine-node": "~0.3.1",
     "jasmine-node": "~1.14.5"
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
