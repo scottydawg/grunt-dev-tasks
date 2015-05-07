@@ -1,7 +1,23 @@
 {
   "name": "grunt-dev-tasks",
   "version": "0.0.1",
+  "author": "Scott Delamater",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scottydawg/grunt-dev-tasks.git"
+  },
+  "bugs": {
+    "url": "http://github.com/scottydawg/grunt-dev-tasks/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/scottydawg/grunt-dev-tasks/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "tasks/grunt-dev-tasks.js",
+  "keywords": ["grunt", "task", "developer", "tool"],
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.5",
