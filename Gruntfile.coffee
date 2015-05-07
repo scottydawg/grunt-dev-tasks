@@ -6,6 +6,16 @@ module.exports = (grunt) ->
     clean:
       build: ['.tmp', 'node_modules/stub-test']
 
+    createStubModule:
+      tasksLib:
+        options:
+          target: 'package.json'
+      tasksFile:
+        options:
+          target: 'tasks/grunt-dev-tasks.js'
+          name: 'dev-tasks'
+          version: '0.0.1'
+
     coffee:
       tasks:
         options:
